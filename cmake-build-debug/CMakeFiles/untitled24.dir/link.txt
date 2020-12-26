@@ -1,0 +1,1 @@
+/usr/bin/cc -pthread -g   CMakeFiles/untitled24.dir/main.c.o CMakeFiles/untitled24.dir/osqueue.c.o CMakeFiles/untitled24.dir/threadPool.c.o  -o untitled24 

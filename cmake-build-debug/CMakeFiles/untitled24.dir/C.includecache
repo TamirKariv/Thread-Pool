@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tamir/CLionProjects/untitled24/main.c
+stdio.h
+-
+stdlib.h
+-
+threadPool.h
+/home/tamir/CLionProjects/untitled24/threadPool.h
+
+/home/tamir/CLionProjects/untitled24/osqueue.c
+osqueue.h
+/home/tamir/CLionProjects/untitled24/osqueue.h
+stdlib.h
+-
+
+/home/tamir/CLionProjects/untitled24/osqueue.h
+
+/home/tamir/CLionProjects/untitled24/threadPool.c
+threadPool.h
+/home/tamir/CLionProjects/untitled24/threadPool.h
+
+/home/tamir/CLionProjects/untitled24/threadPool.h
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+osqueue.h
+/home/tamir/CLionProjects/untitled24/osqueue.h
+string.h
+-
+
